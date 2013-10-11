@@ -1,10 +1,11 @@
 aspshell
 ========
-Same aspshell with FileSystem capabilities.
+Same aspshell with FileSystem and Database querying capabilities.
 
 Change Log:
 =============
-Addition of File System commands which does not rely on WScript.Shell
+ * Addition of File System commands which does not rely on WScript.Shell.
+ * Query directly with a database through the asp shell using :dbquery <query> command.
 
 Contribute by Vikas Singhal (2013)
 
@@ -22,7 +23,7 @@ Table of Contents
   5. Reporting Problems
 
 
-*About*
+*1 About*
 
   The ASP script "aspshell.asp" is a simple web application that provides
   a shell like environment for administering Microsoft IIS web servers.
@@ -35,7 +36,7 @@ Table of Contents
   information about the project.
 
 
-2. Installation
+*2 Installation*
 
   * Copy the file "aspshell.asp" into a folder on your Microsoft IIS web
     server.
@@ -48,8 +49,7 @@ Table of Contents
       - Optional: require SSL connections (to encrypt data transmission
         between browser and server).
 
-
-3. Usage
+*3 Usage*
 
   Open a web browser and navigate to the URL that points to the ASP script.
 
@@ -61,8 +61,7 @@ Table of Contents
 
   To get basic help type in "?".
 
-
-4. Terms of Use
+*4 Terms of Use*
 
   This  software  is provided "as is", without any guarantee made as to its
   suitability  or  fitness  for any particular use. It may contain bugs, so
@@ -70,7 +69,7 @@ Table of Contents
   damage that may unintentionally be caused through its use.
 
 
-5. Reporting Problems
+*5 Reporting Problems*
 
   If  you  encounter problems, please raise an issue here.
 
