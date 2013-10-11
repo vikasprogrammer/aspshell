@@ -22,7 +22,7 @@ Table of Contents
   5. Reporting Problems
 
 
-1. About
+*About*
 
   The ASP script "aspshell.asp" is a simple web application that provides
   a shell like environment for administering Microsoft IIS web servers.
